@@ -1,0 +1,302 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --roboto :"Roboto", sans-serif;
+    --condensed :"Roboto ", sans-serif;
+    --raleway :"Raleway", sans-serif;
+}
+
+.c-pointer{
+    cursor: pointer;
+}
+/* * custom class --- .C */ */
+.c_m_y{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card{
+    width: 500px;
+    height: 600px;
+}
+.card3{
+    width: 100%;
+    height: 600px;
+   
+}
+.z_index{
+    z-index: 111111;
+}
+.c_w_hv{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.c_wh_sub_container{
+    width: 90vw;
+    height: 90vh;
+    padding: 10px;
+}
+.c_login_img{
+    padding-top: 50px;
+    width: 400px;
+    height: 400px;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+.c_bg{
+    background-color:#ffffff;
+}
+.c-loging-section{
+    margin: 10px 100px;
+    height: 90%;
+    width: 70%;
+}
+.heading{
+    font-family: var(--roboto);
+    color: #060d18;
+    text-align: center;
+    font-size: 28px;
+}
+.heading-discription{
+   color: #7c7c7c;
+   font-family: var(--roboto);
+}
+.c-loging-main-div{
+   background-color: #e4f0ec;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+   margin-bottom: 5px;
+}
+.c-loging-main-div:hover{
+    background-color: #c2cac7;
+}
+.c-input-div{
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.img_div{
+    display: flex;
+    justify-content: center;
+}
+.c-input-fild-label{
+    display: block;
+    text-align: center;
+    font-family: var(--roboto);
+    font-weight: 500;
+    letter-spacing: .5px;
+    padding-top: 7px;
+    font-size: 18px;
+    color:#175689;
+}
+.c-input-fild-h1{
+    font-family: var(--roboto);
+    font-weight: normal;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.c-input-fild-h1 i{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color:#185689;
+}
+.c-input-fild-h1 input{
+    border: none;
+    margin-left: 10px;
+    background-color: transparent;
+    color:#333333;
+}
+.input-w{
+    width: 500px
+}
+.c-input-fild-h1 input:focus{
+    border: none;
+    outline: none;
+}
+.c-check{
+    background-color: rgb(3, 231, 136);
+}
+.c-forgot:hover{
+    color:#ec2842 !important;
+}
+.c-login-btn{
+   font-family: var(--roboto);
+   font-size: 16px !important;
+   font-weight: 700;
+   background-color: rgb(3, 231, 136);
+   color: #ffffff;
+   padding: 12px 25px;
+   border-radius: 50px;
+   -webkit-border-radius: 50px;
+   -moz-border-radius: 50px;
+   -ms-border-radius: 50px;
+   -o-border-radius: 50px;
+   border: none;
+   transition: all .2s ease-in-out !important;
+   -webkit-transition: all .2s ease-in-out !important;
+   -moz-transition: all .2s ease-in-out !important;
+   -ms-transition: all .2s ease-in-out !important;
+   -o-transition: all .2s ease-in-out !important;
+}
+.c-login-btn:hover{
+    background-color: rgb(6, 255, 151);
+}
+.c-reset-btn{
+    background-color:#e3efeb;
+    color:#3b3b3b;
+    padding: 12px 28px;
+}
+.c-reset-btn:hover{
+    background-color: #c2cac7;
+}
+/* ********c-accound*********** */
+.c-card-3-img{
+    background: #ffffff url(../images/login.webp) center center/cover no-repeat;
+    width: 100vw;
+    /* height: 100vh; */
+}
+.card3{
+    background-color: #e4f0ec; 
+}
+.c-accound{
+    font-family: var(--roboto);
+    width: 600px;
+    height: 300px;
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.c-accound-p{
+    color: #646262;
+}
+.c-accound-link{
+    color:#da924e;
+}
+.c-accound-link:hover{
+    color:#f3a45a;
+}
+.c-accound-btn{
+   margin-top: 10px;
+   font-size: 16px !important;
+   font-weight: 700;
+   background-color: rgb(3, 231, 136);
+   color: #ffffff;
+   padding: 12px 25px;
+   border:none;
+   transition: all .2s ease-in-out !important;
+   -webkit-transition: all .2s ease-in-out !important;
+   -moz-transition: all .2s ease-in-out !important;
+   -ms-transition: all .2s ease-in-out !important;
+   -o-transition: all .2s ease-in-out !important;
+}
+.c-accound-btn:hover{
+   background-color: rgb(25, 185, 119);
+}
+/* *********Js Elemnt/Html -> class******* */
+.worning{
+    width: 100%;
+    text-align: center;
+    font-family: var(--roboto);
+    font-weight: bold;
+    background-color:#e3efeb;
+    color:#dc2626;
+    padding: 7px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor:copy;
+}
+.show{
+    display: block !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+/* **********Custom Media Screen*********** */
+@media only screen and (max-width: 776px) {
+    .card3{
+        padding: 0 50px;
+    }
+    .card2{
+       height: 650px !important;
+    }
+    .c-accound{
+        width: 500px;
+        height: 300px;
+    }
+}
+/* ****media screen max-width 1200px** */
+@media only screen and (max-width: 1200px) {
+    .responsibe-card-one{
+        display: none;
+    }
+    .card2{
+        padding-top: 30px !important;
+    }
+}
+/* ****media screen min-width 1200px** */
+@media only screen and (min-width: 1200px) {
+    .card2{
+        padding-top: 25px !important;
+    }
+    .c_login_img{
+        margin-top: 80px !important;
+    }
+    .input-w{
+        width: 400px;
+    }
+}
+/* ****media screen min-width 1400px** */
+@media only screen and (min-width: 1400px) {
+    .c-loging-section-lg{
+        margin: 100px 70px;
+        height: 75%;
+    }
+}
+/* **********custom animation *********** */
+
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+   
+    @keyframes pulse {
+    0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+    50% {
+    -webkit-transform: scale3d(1.02, 1.02, 1.02);
+    transform: scale3d(1.0,2 1.05, 1.05);
+    -moz-transform: scale3d(1.0,2 1.05, 1.05);
+    -ms-transform: scale3d(1.0,2 1.05, 1.05);
+    -o-transform: scale3d(1.0,2 1.05, 1.05);
+    }
+    100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    }
+} 

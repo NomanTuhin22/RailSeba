@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rail Seba</title>
+    <!-- Boot strap v[5.2]  css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+  <!-- *************Loging Pages************* -->
+  <div class="container">
+    <div class="row mt-3 mt-lg-5 shadow-lg ">
+       <!-- col one -->
+      <div id="card_One" class="col border-0 card responsibe-card-one">
+        <div class="d-grid justify-content-center align-content-center">
+          <img class="c_login_img" src="./images/railseba.png" alt="img">
+        </div>
+      </div>
+      <!-- col two -->
+      <div id="card_Two" class="col border-0 card card2 pt-4 pt-lg-4 px-5">
+        <!-- log section -->
+        <div class="img_div">
+          <img src="./images/login-page-logo.png" alt="logo">
+        </div>
+        <!-- **title section** --> 
+       <div>
+        <h1 class="heading">Bangladesh Railway</h1>
+        <p class="heading-discription">Enter the information below to verify and register your accound with Bangladesh Railway Ticketing Service.</p> 
+       </div>
+        <!-- **input fild** --> 
+       <div>
+          <div class="c-loging-main-div shadow-sm">
+            <label class="c-input-fild-label" for="email">Enter Your @email</label>
+             <div class="c-input-div d-flex ">
+               <h1 class="c-input-fild-h1"><i class="fa-regular fa-lg fa-envelope"></i><input id="email" type="email" class="input-w"></h1>
+             </div>
+          </div>
+          <div>
+            <div class="c-loging-main-div shadow-sm">
+              <label id="label_Password" class="c-input-fild-label" for="password">Password</label>
+              <div class="c-input-div d-flex ">
+                <h1 class="c-input-fild-h1"><i class="fa-solid fa-lg fa-lock"></i><input id="password" type="password" class="input-w"></h1>
+              </div>
+            </div>
+          </div>
+
+       </div>
+      <!-- **remeber and forgot Password** -->
+       <div id="worning_div" class="d-flex justify-content-between my-4">
+        <h5 id="remember" class="fs-6 fw-bold c-pointer text-muted"><span class="c-check me-1 py-1 px-2 rounded-circle"><i class="fa-solid fa-sm fa-check text-white"></i></span>Remember Me</h5>
+        <h5 id="forget_Password" class="fs-6 me-1 c-pointer fw-bold text-muted c-forgot">Forgot Password?</h5>
+      </div>
+       <!-- **input btn** -->
+      <div>
+          <button id="loggin_Btn" class="shadow c-login-btn">Loging Now</button>
+          <button id="create_Btn" class="shadow c-login-btn ms-2 c-reset-btn">Create Account</button>
+      </div> 
+    </div>
+     <!-- col three -->
+     <div id="card_Three" class="d-none pulse c-card-3-img border-0 card3 c_bg d-grid justify-content-center align-content-center">
+        <div class="d-flex c-accound shadow-lg pt-md-3">
+          <div>
+            <img src="./images/login-page-logo.png" alt="logo">
+          </div>
+          <div class="pt-1 pt-md-3 overflow-hidden">
+            <h3 id="get_Email" class="bolder">tuhin002020@gmail.com</h3>
+            <p class="c-accound-p">নিরাপদ যাত্রা রেল সেবার উদ্দেশ্য, তারাহুরো না করি সাব্ধানে ভ্রমন করি, ভ্রমন কালে রেলের আশন এবং অন্যান্ন জিনিস সাবধানে ব্যাবহার করি । অনুরোধ ক্রমে বাংলাদেশ রেলওয়ে ।
+            <h4><a class="c-accound-link" href="#">Bangladesh Railway</a></h4>
+            <button class="c-accound-btn">book Now</button>
+          </div>
+        </div>
+     </div>
+  </div>
+    <!-- Boot strap v[5.2.x] scrpt-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- coustom js -->
+    <script src="./js/script.js"></script>
+</body>
+</html>

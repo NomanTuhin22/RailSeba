@@ -23,17 +23,17 @@ let p = document.createElement('p');
 
 // *************worning_F*****F*********
 let worning_F = (worning) => {
-    worning_div.children[0].style.display='none';
-    worning_div.children[1].style.display='none';
-    p.innerText = `${worning}` ;
-    worning_div.appendChild(p);
-    //****worning append***
-    let clear = setInterval(() => {
-        worning_div.children[0].style.display='block';
-        worning_div.children[1].style.display='block';
-        p.remove();
-        clearInterval(clear);
-    },5000)
+  worning_div.children[0].style.display='none';
+  worning_div.children[1].style.display='none';
+  p.innerText = `${worning}` ;
+  worning_div.appendChild(p);
+  //****worning append***
+  let clear = setInterval(() => {
+      worning_div.children[0].style.display='block';
+      worning_div.children[1].style.display='block';
+      p.remove();
+      clearInterval(clear);
+  },5000)
 }
 // ***********forget_Password_F*************
 let forget_Password_F = () => {
@@ -45,6 +45,7 @@ let forget_Password_F = () => {
      let newPassword = `Abcd0${num}#@`;
      //  ****copy clipboard***
      navigator.clipboard.writeText(newPassword);
+     password.value = newPassword;
      worning_F(newPassword);
    }
    else{
